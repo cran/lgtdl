@@ -1,0 +1,12 @@
+as.lgtdl                 Longitudinal Class
+getcov                   A function to extract the covariate from an
+                         object of class lgtdl.
+interplinear             A function to provide estimates of the response
+                         for a longitudinal data object. The estimate is
+                         obtained by linear interpolation from the
+                         preceding and following observations.
+interpprev               Interpolation Using the Previous Value
+toString.lgtdl           Produce a character string suitable for
+                         printing.
+lgtdl                    Longitudinal Class
+plot.lgtdl               A function for plotting lgtdl objects.
