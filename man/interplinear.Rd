@@ -10,8 +10,8 @@
   estimates of the covariate at times other than those observed.
 }
 \usage{
-interplinear(x, time, cov = NULL)
-interplinear.lgtdl(x, time, cov = NULL)
+interplinear(x, ...)
+interplinear.lgtdl(x, time, cov = NULL, ...)
 interplinear.AsIs(x, ...)
 }
 
@@ -21,6 +21,7 @@ interplinear.AsIs(x, ...)
   \item{cov}{The name of the covariate in the \code{lgtdl} object on
     which the interpolation should be based. It is not required if there
     is only one covariate.}
+  \item{\dots}{ Ignored. }
 }
 \value{
   A vector containing the interpolated estimates of the covariate values

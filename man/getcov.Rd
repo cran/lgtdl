@@ -8,13 +8,14 @@
 }
 \usage{
 getcov(x, ...)
-getcov.lgtdl(x, cov)
+getcov.lgtdl(x, cov, ...)
 }
 
 \arguments{
   \item{x}{ The \code{lgtdl} object. }
-  \item{\dots}{The name of the covariate to be extracted. }
   \item{cov}{The name of the covariate to be extracted.  } 
+  \item{\dots}{Ignored, there for potential future use. }
+
 }
 
 \value{

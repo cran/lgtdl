@@ -8,5 +8,6 @@ interplinear             A function to provide estimates of the response
 interpprev               Interpolation Using the Previous Value
 toString.lgtdl           Produce a character string suitable for
                          printing.
+lgtdl-internal           Internal Icens functions
 lgtdl                    Longitudinal Class
 plot.lgtdl               A function for plotting lgtdl objects.

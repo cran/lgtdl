@@ -1,5 +1,5 @@
 Package: lgtdl
-Version: 0.5
+Version: 1.0
 Author: R. Gentleman
 Title: A set of methods for longitudinal data objects.
 Description: A very simple implementation of a class for longitudinal data.  See my paper in the DSC-2001 proceedings.

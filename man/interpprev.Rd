@@ -9,7 +9,7 @@
 }
 \usage{
 interpprev(x, ...)
-interpprev.lgtdl(x, times, cov)
+interpprev.lgtdl(x, time, cov, ...)
 interpprev.AsIs(x, ...)
 }
 
@@ -17,10 +17,11 @@ interpprev.AsIs(x, ...)
   \item{x}{ \code{x} is either an object of class \code{lgtdl} or of
     class \code{AsIs}. It is the object on which interpolation is to be
     performed.  }
-  \item{times}{A vector of times at which interpolation is requested.}
+  \item{time}{A vector of times at which interpolation is requested.}
   \item{cov}{The name of the covariate on which interpolation is
     requested. It is only required if \code{x} has more than one
     covariate.}
+  \item{\dots}{ Ignored. }
 }
 \details{
  If objects of class \code{lgtdl} are inserted into a data frame they
@@ -30,10 +31,10 @@ interpprev.AsIs(x, ...)
 }
 \value{
   \code{interpprev.lgtdl} returns a numeric vector of the interpolated
-  values of the covariate at the time(s) specified by \code{times}.
+  values of the covariate at the time(s) specified by \code{time}.
   \code{interpprev.AsIs} returns a vector of interpolated values of the
   covariate. In this case the vector contains one value for each element
-  \code{x}. \code{times} must be either the same length as \code{x} or
+  \code{x}. \code{time} must be either the same length as \code{x} or
   of length one. In the latter case all interpolations are done at that
   time. 
 }

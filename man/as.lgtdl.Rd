@@ -1,4 +1,6 @@
 \name{as.lgtdl}
+\alias{as.lgtdl}
+\alias{is.lgtdl}
 \title{Longitudinal Class}
 \description{
   \code{as.lgtdl} coerces its argument to class \code{lgtdl} if possible.
@@ -7,15 +9,15 @@
 }
 \usage{
 as.lgtdl(x, row.names=NULL)
-is.lgtdl(y)
+is.lgtdl(x)
 }
 \alias{is.lgtdl}
 
 \arguments{
-  \item{x}{An object to be coerced to a \code{lgtdl} object.}
+  \item{x}{An object which is coerced to a \code{lgtdl} object for
+    \code{as.lgtdl} or tested with \code{is.lgtdl}.}
   \item{row.names}{An optional set of row names to be used for the names
     of the covariates in the resulting \code{lgtdl} object.}
-  \item{y}{An object to test whether it is of class \code{lgtdl}}
 }
 \value{
   \item{is.lgtdl} {Returns \code{TRUE} if its argument is of class

@@ -1,6 +1,6 @@
 lgtdl <- function(time, cov) {
   x<-data.frame(time=time,cov=cov)
-  class(x) <- c("lgtdl", class(x)) 
+  class(x) <- c("lgtdl", class(x))
  return(x)
  }
 
@@ -24,7 +24,7 @@ as.lgtdl <- function(x, row.names = NULL) {
 
 getcov <- function(x, ...) UseMethod("getcov")
 
-getcov.lgtdl <- function(x, cov)
+getcov.lgtdl <- function(x, cov, ...)
 {
     nx<-names(x)
     tidx <- match("time", nx)
@@ -57,20 +57,20 @@ interpprev.AsIs <- function(x, ...)
 {
     lenx <- length(x)
     rval <- rep(NA, lenx)
-    times <- list(...)[[1]]
-    lt <- length(times)
+    time <- list(...)[[1]]
+    lt <- length(time)
     if( lt!= lenx ) {
         if(lt != 1)
-            stop("times must be the same length as x")
-        times <- rep(times,1)
+            stop("time must be the same length as x")
+        time <- rep(time,1)
     }
     for( i in 1:lenx )
-        rval[i] <- interpprev(x[[i]], times[i])
+        rval[i] <- interpprev(x[[i]], time[i])
     return(rval)
 }
 
 
-interpprev.lgtdl <- function(x, time, cov = NULL )
+interpprev.lgtdl <- function(x, time, cov = NULL, ...)
 {
     if( missing(time) )
      stop("time must be supplied")
@@ -84,7 +84,7 @@ interpprev.lgtdl <- function(x, time, cov = NULL )
 
 interplinear <- function(x, ...) UseMethod("interplinear")
 
-interplinear.lgtdl <- function(x, time, cov = NULL)
+interplinear.lgtdl <- function(x, time, cov = NULL, ...)
 {
     if( missing(time) )
       stop("time must be supplied")
@@ -102,15 +102,15 @@ interplinear.AsIs <- function(x,...)
 {
         lenx <- length(x)
         rval <- rep(NA, lenx)
-        times <- list(...)[[1]]
-	lt <- length(times)
+        time <- list(...)[[1]]
+	lt <- length(time)
 	if( lt!= lenx ) {
 		if(lt != 1)
-			stop("times must be the same length as x")
-                times <- rep(times, lenx)
+			stop("time must be the same length as x")
+                time <- rep(time, lenx)
         }
         for( i in 1:lenx )
-          rval[i] <- interplinear(x[[i]], times[i])
+          rval[i] <- interplinear(x[[i]], time[i])
         return(rval)
 }
 

@@ -7,7 +7,7 @@
  frame is printed this function provides a suitable string for printing.
 }
 \usage{
-toString.lgtdl(x)
+toString.lgtdl(x, width, ...)
 }
 
 \arguments{
