@@ -8,5 +8,5 @@
 
 \author{Robert Gentleman}
 
-\keyword{methods
-}
+\keyword{methods}
+
