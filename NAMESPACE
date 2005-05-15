@@ -1,0 +1,6 @@
+export(getcov, getcov.lgtdl, interplinear, interplinear.AsIs, 
+interplinear.lgtdl, interpprev, interpprev.AsIs, interpprev.lgtdl, 
+ lgtdl, is.lgtdl, as.lgtdl)
+
+S3method(plot, lgtdl)
+S3method(toString, lgtdl)
