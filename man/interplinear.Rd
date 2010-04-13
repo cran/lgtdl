@@ -16,8 +16,8 @@ interplinear.AsIs(x, ...)
 }
 
 \arguments{
-  \item{x}{ The \code{lgtdl} object that is to be interpolated. }
-  \item{time} {The time(s) at which interpolation is desired.}
+  \item{x}{The \code{lgtdl} object that is to be interpolated. }
+  \item{time}{The time(s) at which interpolation is desired.}
   \item{cov}{The name of the covariate in the \code{lgtdl} object on
     which the interpolation should be based. It is not required if there
     is only one covariate.}

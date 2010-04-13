@@ -20,9 +20,9 @@ is.lgtdl(x)
     of the covariates in the resulting \code{lgtdl} object.}
 }
 \value{
-  \item{is.lgtdl} {Returns \code{TRUE} if its argument is of class
+  \item{is.lgtdl}{Returns \code{TRUE} if its argument is of class
     \code{lgtdl}.}
-  \item{as.lgtdl} {Returns an object of class \code{lgtdl}.}
+  \item{as.lgtdl}{Returns an object of class \code{lgtdl}.}
 }
 \author{Robert Gentleman}
 
