@@ -8,7 +8,7 @@
 }
 \usage{
 getcov(x, ...)
-getcov.lgtdl(x, cov, ...)
+\S3method{getcov}{lgtdl}(x, cov, ...)
 }
 
 \arguments{

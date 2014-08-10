@@ -9,8 +9,8 @@
 }
 \usage{
 interpprev(x, ...)
-interpprev.lgtdl(x, time, cov, ...)
-interpprev.AsIs(x, ...)
+\S3method{interpprev}{lgtdl}(x, time, cov, ...)
+\S3method{interpprev}{AsIs}(x, ...)
 }
 
 \arguments{

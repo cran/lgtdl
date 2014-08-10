@@ -7,7 +7,7 @@
  function plots the covariate trajectories as lines on the y axis.
 }
 \usage{
-plot.lgtdl(x, ...)
+\S3method{plot}{lgtdl}(x, ...)
 }
 %- maybe also `usage' for other objects documented here.
 \arguments{

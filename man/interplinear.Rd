@@ -11,8 +11,8 @@
 }
 \usage{
 interplinear(x, ...)
-interplinear.lgtdl(x, time, cov = NULL, ...)
-interplinear.AsIs(x, ...)
+\S3method{interplinear}{lgtdl}(x, time, cov = NULL, ...)
+\S3method{interplinear}{AsIs}(x, ...)
 }
 
 \arguments{

@@ -7,7 +7,7 @@
  frame is printed this function provides a suitable string for printing.
 }
 \usage{
-toString.lgtdl(x, width, ...)
+\S3method{toString}{lgtdl}(x, width, ...)
 }
 
 \arguments{
