@@ -78,7 +78,7 @@ interpprev.lgtdl <- function(x, time, cov = NULL, ...)
     tidx <- match("time", nx)
     tvec <- x[,tidx]
     cov <- getcov(x, cov)
-    ans <- approx(tvec, cov, time, "const")
+    ans <- stats::approx(tvec, cov, time, "const")
     return( ans$y )
 }
 
@@ -92,7 +92,7 @@ interplinear.lgtdl <- function(x, time, cov = NULL, ...)
     tidx <- match("time", nx)
     tvec <- x[,tidx]
     cov <- getcov(x, cov)
-    ans <- approx( tvec, cov, time, "linear")
+    ans <- stats::approx( tvec, cov, time, "linear")
     return( ans$y )
 }
 

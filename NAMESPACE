@@ -1,6 +1,18 @@
-export(getcov, getcov.lgtdl, interplinear, interplinear.AsIs, 
-interplinear.lgtdl, interpprev, interpprev.AsIs, interpprev.lgtdl, 
- lgtdl, is.lgtdl, as.lgtdl)
+importFrom("graphics", "par")
+importFrom("stats", "approx")
+
+export(getcov,
+       interplinear, 
+       interpprev, 
+       lgtdl,
+       is.lgtdl,
+       as.lgtdl)
 
 S3method(plot, lgtdl)
+S3method(print, lgtdl)
 S3method(toString, lgtdl)
+S3method(getcov, lgtdl)
+S3method(interpprev, AsIs)
+S3method(interplinear, AsIs)
+S3method(interpprev, lgtdl)
+S3method(interplinear, lgtdl)

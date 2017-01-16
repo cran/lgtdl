@@ -1,11 +1,11 @@
 94d55d512a9ba36caa9b7df079bae19f *COPYING
-b262b5e1294b9ea016196ac00b1c4265 *DESCRIPTION
-4f42f283f165b4d80bd4a99526d0baa2 *NAMESPACE
-637bd3262ad8ca8089271b983bb99a80 *R/lgtdl.R
+ce2635565a430df3520295c84004534c *DESCRIPTION
+7ff6f38f03c2da4b14a2a6d5584afead *NAMESPACE
+8b7fec79b8415d38ba72d28cb7195f50 *R/lgtdl.R
 a2549b9f6a53ab44eff62f3da1c51e6d *man/as.lgtdl.Rd
 6b3f93ceff3749c126212ee8ba2c3400 *man/getcov.Rd
 5558446a13a239ef5867f7e29976ad3a *man/interplinear.Rd
 b1f2ed8b6a08da47a7dc457f7b82f406 *man/interpprev.Rd
 332970e3617249a638626f00bcecfc11 *man/isString.lgtdl.Rd
-0b9510c3c24ab9ff991b270a9d1bcc04 *man/lgtdl.Rd
+5890abcf7c4fe2b66f211a4fa450164f *man/lgtdl.Rd
 6453e37718f2e8a052322a3c181fc034 *man/plot.lgtdl.Rd

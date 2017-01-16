@@ -9,7 +9,7 @@
 \references{ Gentleman Robert (2001). Modeling with Objects.
   \emph{Proceedings of the 2nd International Workshop on Distributed
   Statistical Computing.
-  \url{http://www.r-project.org/nosvn/conferences/DSC-2001/Proceedings/Gentleman.pdf}
+  \url{http://r-project.org/nosvn/conferences/DSC-2001/Proceedings/Gentleman.pdf}
 }}
 
 \author{Robert Gentleman}
